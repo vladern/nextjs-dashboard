@@ -1,6 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import styles from '@/app/ui/home.module.css';
-import { adamina } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/fonts';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -16,7 +16,7 @@ export default function Page() {
         <div className={styles.shape} />
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className={`${adamina.className} text-blue-500`}>
+            <a href="https://nextjs.org/learn/" className={`${lusitana.className} text-blue-500`}>
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
